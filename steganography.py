@@ -459,7 +459,7 @@ def hidding_message():
 	creare_candidates()
 	creare_pixeli_imagine()
 	img = Image.fromarray(array)
-	img.save('teste.png')
+	img.save('image_with_message.png')
 
 def extract_message():
 	convertire_lista_pixeli_stego()
@@ -560,7 +560,7 @@ root.geometry('800x400')
 
 root.configure(background='pink')
 
-img =Image.open('xerion.png')
+img =Image.open('fundal.png')
 bg = ImageTk.PhotoImage(img)
 
 
